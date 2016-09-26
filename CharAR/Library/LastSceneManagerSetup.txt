@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ChaseAndRun.unity
+  isLoaded: 1
+  isActive: 1
