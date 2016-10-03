@@ -32,7 +32,7 @@ public class CameraController : MonoBehaviour {
 
 	void LateUpdate() {// happends only after update call, make the rotation based on the previous state of the character
 		// rotate target
-		Debug.Log("Moving state: " + charController.isMoving());
+//		Debug.Log("Moving state: " + charController.isMoving());
 		if (charController.isMoving()) {
 			rotateTarget();
 		}
